@@ -37,15 +37,15 @@
     </nav>
     <section id="profile">
         <div class="section__pic-container">
-            <img src="./assets/bridge_img1.jpg" alt="Heer Profile Picture" alt="profile-pic">
+            <img src="./assets/bridge_img1-modified.png" alt="Heer Profile Picture" alt="profile-pic">
         </div>
         <div class="section__text">
             <p class="section__text__p1">Hello, I'm</p>
-            <h1 class="title">Heer</h1>
+            <h1 class="title">Kusumpreet Kaur Heer</h1>
             <p class="section__text__p2">Student at the University of Calgary</p>
             <div class="btn-container">
-                <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">Download CV</button>
-                <button class="btn btn-color-1" onclick="location.href('./#contact')">Contact Info</button>
+                <button class="btn btn-color-2" onclick="window.open('./assets/resume example.pdf')">Download CV</button>
+                <!--<button class="btn btn-color-1" onclick="location.href('./#contact')">Contact Info</button>-->
             </div>
             <div id="socials-container">
                 <img src="./assets/linkedin.png" alt="Heer's linkedin Profile" class="icon" onclick="location.href='http://www.linkedin.com/in/kusum-heer'">
@@ -69,13 +69,19 @@
                     </div>-->
                     <div class="details-container">
                         <img src="./assets/education.png" alt="Education Icon" class="icon">
-                        <h3>Education</h3>
-                        <p>B.Sc in Computer Science 2020-present</p>
+                        <h3 style="align-items: center; height: 5vh;">Education</h3>
+                        <p style="align-items: center; height: 5vh;">B.Sc in Computer Science 2020-present</p>
+                        <p style="align-items: center; height: 5vh;">B.K Birla Public School, Kalyan 2017-2019</p>
                     </div>
                 </div>
                 <div class="text-container">
                     <p>
                         Enthusiastic Computer Science Student with a Strong Focus on Data Visualization and Analytics | Actively Exploring the Intersection of Technology and Information | Eager to Apply Academic Knowledge in Real-world Scenarios | Currently Pursuing Studies at the University of Calgary.
+                    </p>
+                </div>
+                <div class="text-container">
+                    <p>
+                        Extra Curriculars: Drawing | Dancing | Karate Black Belt | Football Goal Keeper
                     </p>
                 </div>
             </div>
@@ -88,13 +94,27 @@
         <div class="experience-details-container">
             <div class="about-containers">
                 <div class="details-container">
-                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <h2 class="experience-sub-title"></h2>
                     <div class="article-container">
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
                             <div>
-                                <h3>Excel</h3>
+                                <h3>Python</h3>
                                 <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Excel</h3>
+                                <p>Advanced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>SQL</h3>
+                                <p>Advanced</p>
                             </div>
                         </article>
                         <article>
@@ -107,34 +127,15 @@
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
                             <div>
-                                <h3>SQL</h3>
+                                <h3>Docker Hadoop</h3>
                                 <p>Intermediate</p>
                             </div>
                         </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
-                            <div>
-                                <h3>OpenRefine</h3>
-                                <p>Basic</p>
-                            </div>
-                        </article>
-                    </div>
-                </div>
-                <div class="details-container">
-                    <h2 class="experience-sub-title">Frontend Development</h2>
-                    <div class="article-container">
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
                             <div>
                                 <h3>Java</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
-                            <div>
-                                <h3>Python</h3>
-                                <p>Intermediate</p>
+                                <p>Advanced</p>
                             </div>
                         </article>
                         <article>
@@ -147,8 +148,8 @@
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
                             <div>
-                                <h3>Haskell</h3>
-                                <p>Intermediate</p>
+                                <h3>HTML & CSS</h3>
+                                <p>Advanced</p>
                             </div>
                         </article>
                     </div>
@@ -164,41 +165,78 @@
             <div class="about-containers">
                 <div class="details-container color-container">
                     <div class="article-container">
-                        <img src="./assets/project-1.png" alt="Project 1" class="project-img">
+                        <img src="./assets/upcprj.png" alt="Project 3" class="project-img">
                     </div>
-                    <h2 class="experience-sub-title project-title">Project One</h2>
+                    <h2 class="experience-sub-title project-title">Upcoming Project</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/kusumpreet'">
+                            -
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/clicker.png" alt="Project 1" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">The Clicker Game</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/kaihochak/clicker'">
+                            Links
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/screenUnlock.png " alt="Project 2" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Phone Screen Unlock</h2>
                     <div class="btn-container">
                         <button class="btn btn-color-2 project-btn" onclick="location.href='CPSC581P1.html'">
-                            Github
+                            Links
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/prgaana.png" alt="Project 4" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Tableau Customer Analysis</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://public.tableau.com/app/profile/kusumpreet.kaur.heer/viz/RevenueTableauDashboard/Dashboard1?publish=yes'">
+                            Links
                         </button>
                     </div>
                 </div>
                 <div class="details-container color-container">
                     <div class="article-container">
-                        <img src="./assets/project-2.png" alt="Project 2" class="project-img">
+                        <img src="./assets/travPrg.png " alt="Project 2" class="project-img">
                     </div>
-                    <h2 class="experience-sub-title project-title">Project Two</h2>
+                    <h2 class="experience-sub-title project-title">Travel App Design</h2>
                     <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/kusumpreet'">
-                            Github
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/ariellinfy/CPSC-481-Travel-App-Draft'">
+                            Links
                         </button>
                     </div>
                 </div>
                 <div class="details-container color-container">
                     <div class="article-container">
-                        <img src="./assets/project-3.png" alt="Project 3" class="project-img">
+                        <img src="./assets/upcprj.png" alt="Project 3" class="project-img">
                     </div>
-                    <h2 class="experience-sub-title project-title">Project Three</h2>
+                    <h2 class="experience-sub-title project-title">Upcoming Project</h2>
                     <div class="btn-container">
                         <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/kusumpreet'">
-                            Github
+                            -
                         </button>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section id="contact">
+    <!--<section id="contact">
         <p class="section__text__p1">Get in Touch</p>
         <h1 class="title">Contact Me</h1>
         <div class="contact-info-upper-container">
@@ -211,7 +249,7 @@
                 <p><a href="http://www.linkedin.com/in/kusum-heer">LinkedIn</a></p>
             </div>
         </div>
-    </section>
+    </section>-->
     <footer>
         <nav>
             <div class="nav-links-container">

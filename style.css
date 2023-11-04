@@ -174,7 +174,9 @@ section {
     height: 400px;
     width: 400px;
     margin: auto 0;
+
 }
+
 
 .section__text {
     align-self: center;
@@ -304,6 +306,13 @@ section {
 .section-container {
     gap: 4rem;
     height: 80%;
+}
+
+.text-container{
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 10vh; /* Optionally, set the container height to fill the viewport */
 }
 
 /* EXPERIENCE SECTION */
