@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', function () {
         description: 'An ultrasonic sensor on a chair\'s back measures the distance to the user\'s back. The Arduino triggers a buzzer or motor when it detects slouching, promoting good posture. Users can set their preferred distance thresholds for posture alerts.'
       },
       {
-        imageSrc: '/portfolio-pictures/posture-detailske/posture-Kai.jpg',
+        imageSrc: '/portfolio-pictures/posture-detailske/posture-kai.jpg',
         title: 'Posture Corrector - Kai',
         description: 'An ultrasonic sensor attached to a chair\'s back measures the distance to the user\'s back. When the user slouches, increasing this distance beyond a set threshold, the Arduino microcontroller triggers an alarm. This alarm, different from a close-range buzzer, alerts the user to improve their posture. It can be a unique sound or a series of beeps, providing a clear indication that the user needs to sit closer to maintain good posture.'
       },
