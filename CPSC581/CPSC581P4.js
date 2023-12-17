@@ -21,81 +21,81 @@ document.addEventListener('DOMContentLoaded', function () {
       {
         imageSrc: '/portfolio-pictures/CPSC581P4IS/ASLCommunication.jpg',
         title: 'ASLCommunication',
-        description: 'A chair-mounted sensor connected to an Arduino that alerts the user to correct their posture when slouching.'
+        description: 'An app where people can participate in conversations using ASL signs and can make friends based on that '
       },
       {
         imageSrc: '/portfolio-pictures/CPSC581P4IS/CampusMap.jpg',
         title: 'Campus Map',
-        description: 'A Lego-built robotic arm controlled by an Arduino and servo motors for basic tasks.'
+        description: 'A VR app that lets prospective students explore college campuses remotely in a virtual environment.'
       },
       {
         imageSrc: '/portfolio-pictures/CPSC581P4IS/cinema.jpg',
         title: 'Cinema',
-        description: 'An Arduino-based system that tracks water usage in showers and alerts when it\'s excessive.'
+        description: 'Virtual big screen experience in virtual reality for you and your friends. This makes remote movie-watching sessions with your friends more personal because it is like they are watching the movie right next to you!'
       },
       {
         imageSrc: '/portfolio-pictures/CPSC581P4IS/ClassroomQnA.jpg',
         title: 'ClassroomQnA',
-        description: 'A setup using ultrasonic sensors and an Arduino to monitor and signal when pantry items are low.'
+        description: 'A real-time Q&A tool that students can use during lectures to ask and upvote questions anonymously.'
       },
       {
         imageSrc: '/portfolio-pictures/CPSC581P4IS/escapeRoom.jpg',
         title: 'Escape Room',
-        description: 'A device using a photoresistor and Arduino to automatically turn on LEDs in the dark.'
+        description: 'This sketch is for a remote team-building exercise idea. Escape rooms are an ideal team-building exercise because they require problem-solving and collaboration. They are also fun and a great way to build relationships with people. We came up with the idea of a VR escape room as a team-building exercise for remote teams. '
       },
       {
         imageSrc: '/portfolio-pictures/CPSC581P4IS/FriendBombing.jpg',
-        title: 'Interactive Art Installation',
-        description: 'An art installation that responds to people\'s presence using ultrasonic sensors, servo motors, and LED lights, creating an engaging and dynamic visual experience.'
+        title: 'FriendBombing',
+        description: 'An app where people are given a choice to bomb random people on the application and if someone is bombed they have to participate in some activities with each other. '
       },
       {
         imageSrc: '/portfolio-pictures/CPSC581P4IS/OnlineDebate.jpg',
-        title: 'Smart Garbage Can',
-        description: 'A hands-free garbage can with an ultrasonic sensor and servo motor to automatically open the lid when someone approaches, promoting hygiene.'
+        title: 'OnlineDebate',
+        description: 'A website where students can engage in structured debates on various topics, with tools for timing and scoring.'
       },
       {
         imageSrc: '/portfolio-pictures/CPSC581P4IS/openMic.jpg',
-        title: 'Automated Plant Watering System',
-        description: 'A system using Arduino, humidity, and temperature sensors to water plants automatically when the soil is dry, preventing forgetfulness.'
+        title: 'openMic',
+        description: 'An open mic that allows people to join both in person or from any device (phone/computer/VR headset). Cameras are placed around the room and stage for remote audiences and there is a projector on the stage for remote performers'
       },
       {
         imageSrc: '/portfolio-pictures/CPSC581P4IS/PeerFeedback.jpg',
-        title: 'Sunrise Simultion Alarm Clock',
-        description: 'An alarm clock that mimics a gentle sunrise by gradually increasing the brightness and color temperature of LED lights, providing a more pleasant wake-up experience.'
+        title: 'PeerFeedback',
+        description: 'A mobile application where students can give and receive anonymous feedback on group projects or presentations.'
       },
       {
         imageSrc: '/portfolio-pictures/CPSC581P4IS/projectManagement.jpg',
-        title: 'Toys For Pets',
-        description: 'The pet toy was drawn by Logan and serves as a way for cats, dogs and other small pets to entertain themselves. The basic idea is that the toy will be able to move itself away from the pet using an ultrasonic sensor and motors. Furthermore, the toy would have some sort of decoration on it that pets would want to play with. We decided not to further explore this idea because similar products already exist.'
+        title: 'projectManagement',
+        description: 'A sketch for a collaborative project management app. This app contains a task board to help keep track of your team’s tasks, a file-sharing app for files and links, and text and voice communication'
       },
       {
         imageSrc: '/portfolio-pictures/CPSC581P4IS/remoteTrainer.jpg',
-        title: 'Pet Feeder',
-        description: 'The pet feeder is an idea created by Logan that solves the problem of forgetting to feed your pet. Using an internal timer in the arduino software, at a set interval, for example 6am and 6pm, a motor would activate and let the food bowl be filled from a reservoir. In the end we decided not to pursue this idea due to similar products already existing.'
+        title: 'remoteTrainer',
+        description: 'A sketch for an app to help you find a personal trainer online. Then, you can send your workouts or videos of your workouts to your trainer to receive feedback.'
       },
       {
         imageSrc: '/portfolio-pictures/CPSC581P4IS/RemoteWhiteboard.jpg',
-        title: 'Closet Organiser',
-        description: 'The closet organiser is an idea by Logan that helps to keep a cluttered closet organised. By replacing the hanging rack with a rotating rack powered by a motor, the user would hold a button to rotate their clothes until the one they want is found. While this idea was interesting, due to hardware constraints, we decided not to pursue it.'
+        title: 'RemoteWhiteboard',
+        description: 'A sketch for a set of whiteboards that are synchronized. Writing anything on one of the boards also appears on all of the other boards. '
       },
       {
         imageSrc: '/portfolio-pictures/CPSC581P4IS/SharedExpense.jpg',
-        title: 'Automatic Fan',
-        description: 'The automatic fan was created by Logan as a way to automatically trigger a fan based on a temperature and humidity sensor. When a certain threshold temperature was reached, the fan would trigger. This idea would be used on an office desk, or with bigger hardware in a room. We decided not to pursue this idea due to its simplicity.'
+        title: 'SharedExpense',
+        description: 'An app that helps track and split expenses within a project team or student group.'
       },
       {
         imageSrc: '/portfolio-pictures/CPSC581P4IS/SocialMediaForAcademics.jpg',
-        title: 'Automatic Fan',
-        description: 'The automatic fan was created by Logan as a way to automatically trigger a fan based on a temperature and humidity sensor. When a certain threshold temperature was reached, the fan would trigger. This idea would be used on an office desk, or with bigger hardware in a room. We decided not to pursue this idea due to its simplicity.'
+        title: 'SocialMediaForAcademics',
+        description: 'A social networking site focused on academic collaboration, where students can share research and find project partners.'
       },
       {
         imageSrc: '/portfolio-pictures/CPSC581P4IS/translation.jpg',
-        title: 'Automatic Fan',
+        title: 'translation',
         description: 'The automatic fan was created by Logan as a way to automatically trigger a fan based on a temperature and humidity sensor. When a certain threshold temperature was reached, the fan would trigger. This idea would be used on an office desk, or with bigger hardware in a room. We decided not to pursue this idea due to its simplicity.'
       },
       {
         imageSrc: '/portfolio-pictures/CPSC581P4IS/whiteboad.jpg',
-        title: 'Automatic Fan',
+        title: 'whiteboad',
         description: 'The automatic fan was created by Logan as a way to automatically trigger a fan based on a temperature and humidity sensor. When a certain threshold temperature was reached, the fan would trigger. This idea would be used on an office desk, or with bigger hardware in a room. We decided not to pursue this idea due to its simplicity.'
       }
     ];
@@ -104,68 +104,68 @@ document.addEventListener('DOMContentLoaded', function () {
     const detailedSketches = [
         {
             imageSrc: '/portfolio-pictures/CPSC581P4CS/ASLCommunication.jpg',
-            title: 'Posture Corrector',
-            description: 'A chair-mounted sensor connected to an Arduino that alerts the user to correct their posture when slouching.'
+            title: 'ASL Communication',
+            description: 'Connect with friends using American Sign Language (ASL) through this innovative app. Users can chat using ASL video, making it a great tool for the deaf and hard of hearing community to socialize and meet new people.'
           },
           {
             imageSrc: '/portfolio-pictures/CPSC581P4CS/CampusMap.jpg',
-            title: 'Robot Arm',
-            description: 'A Lego-built robotic arm controlled by an Arduino and servo motors for basic tasks.'
+            title: 'Campus Map',
+            description: 'Experience immersive virtual tours of college campuses from anywhere. This VR app provides a detailed look at campus life, facilities, and more to help prospective students make informed decisions.'
           },
           {
             imageSrc: '/portfolio-pictures/CPSC581P4CS/ClassroomQnA.jpg',
-            title: 'Shower Monitor',
-            description: 'An Arduino-based system that tracks water usage in showers and alerts when it\'s excessive.'
+            title: 'Classroom QnA',
+            description: ' Enhance classroom interaction with this real-time Q&A platform. Students can anonymously ask and upvote questions, promoting a more engaging and inclusive learning environment.'
           },
           {
             imageSrc: '/portfolio-pictures/CPSC581P4CS/FriendBombing.jpg',
-            title: 'Interactive Art Installation',
-            description: 'An art installation that responds to people\'s presence using ultrasonic sensors, servo motors, and LED lights, creating an engaging and dynamic visual experience.'
+            title: 'Friend Bombing',
+            description: ' A playful app that randomly matches users to bomb each other with challenges, encouraging them to engage in fun activities and fostering new friendships.'
           },
           {
             imageSrc: '/portfolio-pictures/CPSC581P4CS/OnlineDebate.jpg',
-            title: 'Smart Garbage Can',
-            description: 'A hands-free garbage can with an ultrasonic sensor and servo motor to automatically open the lid when someone approaches, promoting hygiene.'
+            title: 'Online Debate',
+            description: 'Debate with peers across the globe on this online platform. Structured debates with built-in timing and scoring promote critical thinking and public speaking skills.'
           },
           {
             imageSrc: '/portfolio-pictures/CPSC581P4CS/openMic2.jpg',
-            title: 'Automated Plant Watering System',
-            description: 'A system using Arduino, humidity, and temperature sensors to water plants automatically when the soil is dry, preventing forgetfulness.'
+            title: 'Open Mic',
+            description: ' '
           },
           {
             imageSrc: '/portfolio-pictures/CPSC581P4CS/PeerFeedback.jpg',
-            title: 'Sunrise Simultion Alarm Clock',
-            description: 'An alarm clock that mimics a gentle sunrise by gradually increasing the brightness and color temperature of LED lights, providing a more pleasant wake-up experience.'
+            title: 'Peer Feedback',
+            description: ' Offer constructive criticism or praise anonymously on class projects. This mobile app encourages honest feedback and continuous improvement among students.'
           },
           {
             imageSrc: '/portfolio-pictures/CPSC581P4CS/pojectManagement2.jpg',
-            title: 'Toys For Pets',
-            description: 'The pet toy was drawn by Logan and serves as a way for cats, dogs and other small pets to entertain themselves. The basic idea is that the toy will be able to move itself away from the pet using an ultrasonic sensor and motors. Furthermore, the toy would have some sort of decoration on it that pets would want to play with. We decided not to further explore this idea because similar products already exist.'
+            title: 'Poject Management',
+            description: ' '
           },
           {
             imageSrc: '/portfolio-pictures/CPSC581P4CS/remoteTrainer2.jpg',
-            title: 'Pet Feeder',
-            description: 'The pet feeder is an idea created by Logan that solves the problem of forgetting to feed your pet. Using an internal timer in the arduino software, at a set interval, for example 6am and 6pm, a motor would activate and let the food bowl be filled from a reservoir. In the end we decided not to pursue this idea due to similar products already existing.'
+            title: 'Remote Trainer',
+            description: ' '
           },
           {
             imageSrc: '/portfolio-pictures/CPSC581P4CS/RemoteWhiteboard.jpg',
-            title: 'Closet Organiser',
-            description: 'The closet organiser is an idea by Logan that helps to keep a cluttered closet organised. By replacing the hanging rack with a rotating rack powered by a motor, the user would hold a button to rotate their clothes until the one they want is found. While this idea was interesting, due to hardware constraints, we decided not to pursue it.'
+            title: 'Remote Whiteboard',
+            description: 'Collaborate remotely with this digital whiteboard app. Team members can brainstorm in real-time, using tools for drawing and annotating.'
           },
           {
             imageSrc: '/portfolio-pictures/CPSC581P4CS/SharedExpense.jpg',
-            title: 'Automatic Fan',
-            description: 'The automatic fan was created by Logan as a way to automatically trigger a fan based on a temperature and humidity sensor. When a certain threshold temperature was reached, the fan would trigger. This idea would be used on an office desk, or with bigger hardware in a room. We decided not to pursue this idea due to its simplicity.'
+            title: 'Shared Expense',
+            description: 'Simplify group finance management with this app. Track, split, and manage expenses for projects or trips, ensuring fairness and transparency.'
           },
           {
             imageSrc: '/portfolio-pictures/CPSC581P4CS/SocialMediaForAcademics.jpg',
-            title: 'Automatic Fan',
-            description: 'The automatic fan was created by Logan as a way to automatically trigger a fan based on a temperature and humidity sensor. When a certain threshold temperature was reached, the fan would trigger. This idea would be used on an office desk, or with bigger hardware in a room. We decided not to pursue this idea due to its simplicity.'
+            title: 'Social Media For Academics',
+            description: 'A niche social network for academic professionals and students. Share research, collaborate on projects, and network with peers in your field.'
           },
           {
             imageSrc: '/portfolio-pictures/CPSC581P4CS/whiteboard2.jpg',
-            title: 'Automatic Fan',
-            description: 'The automatic fan was created by Logan as a way to automatically trigger a fan based on a temperature and humidity sensor. When a certain threshold temperature was reached, the fan would trigger. This idea would be used on an office desk, or with bigger hardware in a room. We decided not to pursue this idea due to its simplicity.'
+            title: 'whiteboard',
+            description: ' '
           }
     ];
   
