@@ -1,0 +1,172 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: auto;
+    padding: 30px 24px;
+    text-align: center;
+    background-color: hsl(202, 26%, 35%);
+    color: #b3b3b3; 
+    max-width: 1000px;
+}
+
+.desktop {
+    display: block;
+}
+
+.mobile {
+    display: none;
+}
+
+a {
+    color: #b3b3b3;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 1.5em;
+    text-align: left;
+}
+
+#title-container {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    margin-block: 45px px;
+}
+
+#title-container h1 {
+    font-size: 2.0em;
+    margin-block: 4px;
+}
+
+#content-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 0 20px;
+    margin: 0 auto;
+    overflow-x: auto;
+}
+
+main section {
+    width: 25%; 
+    box-sizing: border-box; 
+    text-align: start;
+}
+
+main p {
+    font-size: 14px;
+    margin-block: 30px 35px;
+    height: 65px;
+}
+
+main h3 {
+    font-size: 14px;
+    margin-block: 0 30px;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.image-container {
+    overflow: hidden;
+    border-radius: 5px;
+    height: 350px;
+}
+
+.image-container img {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover; 
+}
+
+.link {
+    transition: transform 0.3s ease; /* Smooth transition for the transformation */
+    position: relative; /* Needed for z-index to work properly */
+}
+
+.link:hover {
+    transform: scale(1.1); /* Scales the content inside the anchor tag */
+    z-index: 10; /* Brings the hovered item to the front */
+}
+
+/* Mobile */
+@media screen and (max-width: 600px) {
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    #title-container {
+        margin-block: 10px 10px ;
+    }
+
+    #title-container h1 {
+        font-size: 1.0em;
+    }
+
+    #content-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main section {
+        width: 100%;
+    }
+
+    .image-container {
+        height: 200px;
+    }
+
+    main img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    h2, #title-container h1, main h3 {
+        font-size: 1.2em; /* Larger font size for better readability on mobile */
+    }
+
+    main p {
+        font-size: 12px; /* Slightly larger paragraph font size */
+    }
+}
+
+/* Medium */
+@media screen and (min-width: 601px) and (max-width: 900px) {
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    #title-container {
+        margin-block: 30px 30px ;
+    }
+    
+    #content-container {
+        flex-direction: row;
+        flex-wrap: wrap; /* Allow wrapping for medium screens */
+        align-items: center;
+    }
+
+    main section {
+        width: 70%; /* Adjust for medium screens */
+    }
+
+    main h3 {
+        margin-block: 20px; 
+        font-size: 1.2em; /* Larger font size for better readability on medium screens */
+    }
+
+    main p {
+        font-size: 14px;
+        margin-block: 30px 30px;
+    }
+
+}
