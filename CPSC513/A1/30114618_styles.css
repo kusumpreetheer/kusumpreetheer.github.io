@@ -44,9 +44,9 @@ body {
 
 /* Flexbox for Logo Alignment */
 .logo-container {
-    display: flex; /* Flexbox for centering logo */
-    align-items: center; /* Centers the logo vertically */
-    justify-content: center; /* Centers the logo horizontally */
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
     /* Responsive logo sizes */
     width: 80px;
     height: 80px;
@@ -80,7 +80,7 @@ body {
 
 /* CSS Grid for Features Section */
 .features-section {
-    display: grid; /* Utilizes CSS Grid for layout */
+    display: grid; 
     grid-template-columns: 1fr; 
     gap: 20px; 
     background-color: inherit; 

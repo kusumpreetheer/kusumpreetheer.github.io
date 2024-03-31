@@ -169,6 +169,15 @@ section {
     height: 80vh;
 }
 
+.profile-pic {
+    border-radius: 50%;
+    object-fit: cover;
+    width: full;
+    height: full;
+    width: 400px;
+    height: 400px;
+}
+
 .section__pic-container {
     display: flex;
     height: 400px;
@@ -367,8 +376,11 @@ article .icon {
 
 .project-img {
     border-radius: 2rem;
-    width: 90%;
-    height: 90%;
+    width: 420px;
+    height: 280px;
+    width: full;
+    height: full;
+    object-fit: cover;
 }
 
 .project-title {
