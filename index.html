@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- add nav icon -->
     <link rel="icon" href="./assets/crab.svg" type="image/x-icon">
     <title>Kusumpreet Kaur Heer</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="output.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
 </head>
+
 <body>
     <nav id="desktop-nav">
         <div class="logo">Heer</div>
@@ -37,21 +39,27 @@
             </div>
         </div>
     </nav>
-    <section id="profile">
-        <div class="section__pic-container">
-            <img src="./assets/withcagt.jpg" alt="Heer Profile Picture" class="profile-pic">
-        </div>
+    <section class="flex justify-center gap-20 mb-2">
+        <div class="flex items-center">
+            <img src="./assets/withcagt.jpg" alt="Heer Profile Picture" class="w-[400px] h-[400px] rounded-full object-cover">
+          </div>
         <div class="section__text">
             <p class="section__text__p1">Hello, I'm</p>
             <h1 class="title">Kusumpreet Kaur Heer</h1>
             <p class="section__text__p2">Student at the University of Calgary</p>
             <div class="btn-container">
-                <button class="btn btn-color-2" onclick="window.open('./assets/resume example.pdf')">Download CV</button>
-                <!--<button class="btn btn-color-1" onclick="location.href('./#contact')">Contact Info</button>-->
+                <div class="flex justify-center gap-4"> <!-- Using flex utility classes to create a flex container -->
+                    <button
+                        class="bg-white hover:bg-black text-black hover:text-white font-bold py-2 px-4 rounded-full border border-black transition-colors duration-300 ease-in-out"
+                        onclick="window.open('./assets/KUSUMPREET KAUR HEER Resume.pdf')">Resume</button>
+                </div>
+
             </div>
             <div id="socials-container">
-                <img src="./assets/linkedin.png" alt="Heer's linkedin Profile" class="icon" onclick="location.href='http://www.linkedin.com/in/kusum-heer'">
-                <img src="./assets/github.png" alt="Heer's Github Profile" class="icon" onclick="location.href='https://github.com/kusumpreet'">
+                <img src="./assets/linkedin.png" alt="Heer's linkedin Profile" class="icon"
+                    onclick="location.href='http://www.linkedin.com/in/kusum-heer'">
+                <img src="./assets/github.png" alt="Heer's Github Profile" class="icon"
+                    onclick="location.href='https://github.com/kusumpreet'">
             </div>
         </div>
         <!-- <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#about'"> -->
@@ -79,7 +87,9 @@
                 </div>
                 <div class="text-container">
                     <p>
-                        Enthusiastic Computer Science Student with a Strong Focus on Data Visualization and Analytics | Actively Exploring the Intersection of Technology and Information | Eager to Apply Academic Knowledge in Real-world Scenarios | Currently Pursuing Studies at the University of Calgary.
+                        Enthusiastic Computer Science Student with a Strong Focus on Data Visualization and Analytics |
+                        Actively Exploring the Intersection of Technology and Information | Eager to Apply Academic
+                        Knowledge in Real-world Scenarios | Currently Pursuing Studies at the University of Calgary.
                     </p>
                 </div>
                 <div class="text-container">
@@ -172,7 +182,8 @@
                     </div>
                     <h2 class="experience-sub-title project-title">CourseRater (upcoming)</h2>
                     <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://jacobchak.com/lecture-league-page/'">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://jacobchak.com/lecture-league-page/'">
                             Links
                         </button>
                     </div>
@@ -183,7 +194,8 @@
                     </div>
                     <h2 class="experience-sub-title project-title">Local Marketplace</h2>
                     <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://local-marketplace.vercel.app/'">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://local-marketplace.vercel.app/'">
                             Links
                         </button>
                     </div>
@@ -194,7 +206,8 @@
                     </div>
                     <h2 class="experience-sub-title project-title">MyUcalgary 2.0</h2>
                     <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Vic-Han/SENG-401-Project'">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/Vic-Han/SENG-401-Project'">
                             Links
                         </button>
                     </div>
@@ -209,7 +222,8 @@
                     </div>
                     <h2 class="experience-sub-title project-title">Indian Road Analytics</h2>
                     <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/kaihochak/indian-road-analytics/blob/35a86533b7c4fecc850ba5e322163d32c9585aad/Final%20Project%20Report.pdf'">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/kaihochak/indian-road-analytics/blob/35a86533b7c4fecc850ba5e322163d32c9585aad/Final%20Project%20Report.pdf'">
                             Links
                         </button>
                     </div>
@@ -231,7 +245,8 @@
                     </div>
                     <h2 class="experience-sub-title project-title">The Clicker Game</h2>
                     <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/kaihochak/clicker'">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/kaihochak/clicker'">
                             Links
                         </button>
                     </div>
@@ -257,7 +272,8 @@
                     </div>
                     <h2 class="experience-sub-title project-title">Travel App Design</h2>
                     <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/ariellinfy/CPSC-481-Travel-App-Draft'">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/ariellinfy/CPSC-481-Travel-App-Draft'">
                             Links
                         </button>
                     </div>
@@ -268,7 +284,8 @@
                     </div>
                     <h2 class="experience-sub-title project-title">Tableau Customer Analysis</h2>
                     <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://public.tableau.com/app/profile/kusumpreet.kaur.heer/viz/RevenueTableauDashboard/Dashboard1?publish=yes'">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://public.tableau.com/app/profile/kusumpreet.kaur.heer/viz/RevenueTableauDashboard/Dashboard1?publish=yes'">
                             Links
                         </button>
                     </div>
@@ -304,4 +321,5 @@
     </footer> -->
     <script src="script.js"></script>
 </body>
+
 </html>
