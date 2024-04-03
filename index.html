@@ -1,3 +1,5 @@
+<!-- npx tailwindcss -i ./style.css -o ./output.css --watch -->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,9 +15,9 @@
 
 <body>
     <nav id="desktop-nav">
-        <div class="logo">Heer</div>
+        <div class="text-2xl">Heer</div>
         <div>
-            <ul class="nav-links">
+            <ul class="flex gap-8 text-2xl list-none">
                 <li><a href="#about">About</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
@@ -23,31 +25,33 @@
             </ul>
         </div>
     </nav>
-    <nav id="hamburger-nav">
-        <div class="logo">Heer</div>
-        <div class="hamburger-menu">
-            <div class="hamburger-icon" onclick="toggleMenu()">
+    <nav id="hamburger-nav" class="hidden">
+        <div class="text-2xl">Heer</div>
+        <div class="relative inline-block">
+            <div class="flex flex-col justify-between h-6 w-8 cursor-pointer" onclick="toggleMenu()">
                 <span></span>
                 <span></span>
                 <span></span>
             </div>
-            <div class="menu-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </div>
+            <div class="absolute top-0 right-0 bg-white w-fit max-h-0 overflow-hidden ease-in-out duration-300 no-underline">
+                <ul>
+                    <li><a href="#about" class="block p-3 text-center text-2xl text-black ease-in-out duration-300 no-underline">About</a></li>
+                    <li><a href="#experience" class="block p-3 text-center text-2xl text-black ease-in-out duration-300 no-underline">Experience</a></li>
+                    <li><a href="#projects" class="block p-3 text-center text-2xl text-black ease-in-out duration-300 no-underline">Projects</a></li>
+                    <li><a href="#contact" class="block p-3 text-center text-2xl text-black ease-in-out duration-300 no-underline">Contact</a></li>
+                </ul>
+            </div>            
         </div>
     </nav>
     <section class="flex justify-center gap-20 mb-2">
         <div class="flex items-center">
             <img src="./assets/withcagt.jpg" alt="Heer Profile Picture" class="w-[400px] h-[400px] rounded-full object-cover">
           </div>
-        <div class="section__text">
-            <p class="section__text__p1">Hello, I'm</p>
-            <h1 class="title">Kusumpreet Kaur Heer</h1>
-            <p class="section__text__p2">Student at the University of Calgary</p>
-            <div class="btn-container">
+        <div class="self-center text-center">
+            <p class="text-center">Hello, I'm</p>
+            <h1 class="text-5xl text-center">Kusumpreet Kaur Heer</h1>
+            <p class="text-3xl mb-4">Student at the University of Calgary</p>
+            <div class="flex justify-center gap-4">
                 <div class="flex justify-center gap-4"> <!-- Using flex utility classes to create a flex container -->
                     <button
                         class="bg-white hover:bg-black text-black hover:text-white font-bold py-2 px-4 rounded-full border border-black transition-colors duration-300 ease-in-out"
@@ -55,29 +59,20 @@
                 </div>
 
             </div>
-            <div id="socials-container">
+            <div id="socials-container" class="flex justify-center mt-4 gap-4">
                 <img src="./assets/linkedin.png" alt="Heer's linkedin Profile" class="icon"
                     onclick="location.href='http://www.linkedin.com/in/kusum-heer'">
                 <img src="./assets/github.png" alt="Heer's Github Profile" class="icon"
                     onclick="location.href='https://github.com/kusumpreet'">
             </div>
         </div>
-        <!-- <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#about'"> -->
     </section>
-    <section id="about">
-        <p class="section__text__p1">Get To Know More</p>
-        <h1 class="title">About Me</h1>
+    <section id="about" class="relative">
+        <p class="text-center">Get To Know More</p>
+        <h1 class="text-5xl text-center">About Me</h1>
         <div class="section-container">
-            <!--<div class="section__pic-container">
-                <img src="./assets/about-pic.png" alt="Profile Picture" class="about-pic">
-            </div>-->
             <div class="about-details-container">
                 <div class="about-containers">
-                    <!--<div class="details-container">
-                        <img src="./assets/experience.png" alt="Experience Icon" class="icon">
-                        <h3>Experience</h3>
-                        <p>2+ years <br/>Frontend Development</p>
-                    </div>-->
                     <div class="details-container">
                         <img src="./assets/education.png" alt="Education Icon" class="icon">
                         <h3 style="align-items: center; height: 5vh;">Education</h3>
@@ -102,8 +97,8 @@
         <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'">
     </section>
     <section id="experience">
-        <p class="section__text__p1">Explore My</p>
-        <h1 class="title">Experience</h1>
+        <p class="text-center">Explore My</p>
+        <h1 class="text-5xl text-center">Experience</h1>
         <div class="experience-details-container">
             <div class="about-containers">
                 <div class="details-container">
@@ -172,8 +167,8 @@
         <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'">
     </section>
     <section id="projects">
-        <p class="section__text__p1">Browse My Recent</p>
-        <h1 class="title">Projects</h1>
+        <p class="text-center">Browse My Recent</p>
+        <h1 class="text-5xl text-center">Projects</h1>
         <div class="experience-details-container">
             <div class="about-containers">
                 <div class="details-container color-container">
@@ -294,8 +289,8 @@
         </div>
     </section>
     <!--<section id="contact">
-        <p class="section__text__p1">Get in Touch</p>
-        <h1 class="title">Contact Me</h1>
+        <p class="text-center">Get in Touch</p>
+        <h1 class="text-5xl text-center">Contact Me</h1>
         <div class="contact-info-upper-container">
             <div class="contact-info-container">
                 <img src="./assets/email.png" alt="Email Icon" class="icon contact-icon email-icon">
