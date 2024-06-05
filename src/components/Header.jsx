@@ -1,16 +1,31 @@
 import React from 'react'
-import K from '../assets'
 
 const Header = () => {
+
+  const [isOpen, setIsOpen] = React.useState(false);
+
+  const handleToggle = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
-    <div className='fixed top-0 z-50 bg-n-8/90 backdrop-blur-sm border-b border-n-6 lg:bg-n-8/90 lg:backdrop-blur-sm'>
-      <div className='flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4'>
-        <a className='block w-[12rem] xl:mr-8' href='#hero'>
-            <img src={K} width={190} height={40} alt='Logo' />
-            <div>Heer</div>
-        </a>
+    <header className="p-4">
+      <div className="container flex items-center justify-between mx-auto">
+        <div className="flex items-center">
+          <h1 className="text-2xl font-bold">Heer</h1>
+        </div>
+        <nav className="flex items-center">
+          <div className="md:hidden" onClick={handleToggle}>
+            <button className="text-3xl">&#9776;</button>
+          </div>
+          <ul className={`md:flex space-x-4 ${isOpen ? 'block' : 'hidden'} md:block mt-4 md:mt-0`}>
+            <li><a href="#About" className="block text-gray-700 hover:text-gray-900">About</a></li>
+            <li><a href="#Projects" className="block text-gray-700 hover:text-gray-900">Projects</a></li>
+            <li><a href="#Contacts" className="block text-gray-700 hover:text-gray-900">Contact</a></li>
+          </ul>
+        </nav>
       </div>
-    </div>
+    </header>
   )
 }
 
