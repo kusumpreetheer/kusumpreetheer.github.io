@@ -1,11 +1,10 @@
 import { useState } from "react";
-import { initialTabs as tabs } from '../ui/ProjectSections.jsx';
+import { initialTabs as tabs } from '../ui/projectSections.jsx';
 import { motion, AnimatePresence } from "framer-motion";
 import React from "react";
 
 export default function Projects() {
   const [selectedTab, setSelectedTab] = useState(tabs[0]);
-
   return (
     <div className="container w-full wrapper">
       <nav className="mb-4">
