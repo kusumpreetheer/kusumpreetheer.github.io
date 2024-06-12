@@ -11,10 +11,20 @@ const App = () => {
     <>
       <div className='container overflow-hidden'>
         <Header />
-        <Hero />
+        <section id="Hero">
+          <Hero />
+        </section>
+        {/* 
+      <section id="About">
         <About />
-        <Projects />
-        <Contacts  />
+      </section> 
+      */}
+        <section id="Projects">
+          <Projects />
+        </section>
+        <section id="Contacts">
+          <Contacts />
+        </section>
       </div>
     </>
   )
