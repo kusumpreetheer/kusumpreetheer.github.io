@@ -9,7 +9,7 @@ const Contacts = () => {
         <div className='flex-1'>
           <div className='h3'>
             Thank you so much for visiting
-            <span className='px-3 py-1 mx-2 rounded-md bg-accent'>heer’s website</span>
+            <span className='px-3 py-1 mx-2 rounded-md bg-accent'><a href='./'>heer’s website</a></span>
             ,
             <div>I appreciate your time and presence.</div>
           </div>

@@ -1,26 +1,39 @@
 import React from 'react'
 import macbook from '../assets/macbook.png'
+import courseRater from '../assets/Projects/WebDev/CourseRater.png'
+import theClickerGame from '../assets/Projects/WebDev/theClickerGame.png'
+import chairPostureCorrector from '../assets/Projects/WebDev/chairPostureCorrector.png'
+import phoneScreenUnlock from '../assets/Projects/WebDev/phoneScreenUnlock.png'
+import localMarketplace from '../assets/Projects/WebDev/localMarketplace.png'
+import myUcalgary from '../assets/Projects/WebDev/myUcalgary.png'
+import figma from '../assets/Projects/technologyDrawings/figma.png'
+import mantine from '../assets/Projects/technologyDrawings/mantine.png'
+import nextJS from '../assets/Projects/technologyDrawings/nextJS.png'
+import react from '../assets/Projects/technologyDrawings/react.png'
+import shadCN from '../assets/Projects/technologyDrawings/shadCN.png'
+import tailwind from '../assets/Projects/technologyDrawings/tailwind.png'
+import typeScript from '../assets/Projects/technologyDrawings/typeScript.png'
+import vercel from '../assets/Projects/technologyDrawings/vercel.png'
 
 const WebDev = () => {
 
-    const ProjectTemplate = ({ projectLink, imageUrl, imageAlt, title, description, date }) => {
+    const ProjectTemplate = ({ projectLink, imageUrl, imageAlt, title, description, date, technologies = [] }) => {
         return (
             <div className='aspect-w-1 aspect-h-1'>
                 <a href={projectLink} target="_blank" rel="noopener noreferrer" className='block'>
                     <div className='relative flex flex-col justify-between h-full p-4 overflow-hidden rounded-md shadow-md group bg-primary-light'>
                         {/* Background Image */}
                         <div className='absolute inset-0 flex flex-col items-center justify-center w-full h-full mt-auto'>
-                            <img src={imageUrl} alt={imageAlt} className='object-fill w-56 h-56' />
+                            <img src={imageUrl} alt={imageAlt} className='object-fill w-72 h-60' />
                         </div>
 
                         {/* Top Color Divs */}
                         <div className='relative z-10 flex items-start transition-all duration-300 gap-x-2 group-hover:-translate-y-full group-hover:opacity-0'>
-                            <div className='bg-[#E18686] w-8 h-8 rounded-md'></div>
-                            <div className='bg-[#F6D7C7] w-8 h-8 rounded-md'></div>
-                            <div className='bg-[#EFD67C] w-8 h-8 rounded-md'></div>
-                            <div className='bg-[#C2EAAA] w-8 h-8 rounded-md'></div>
-                            <div className='bg-[#C6E9E7] w-8 h-8 rounded-md'></div>
-                            <div className='bg-[#B1CBF2] w-8 h-8 rounded-md'></div>
+                            {technologies.map((tech, idx) => (
+                                <div key={idx} className='w-8 h-8 bg-transparent rounded-md'>
+                                    <img src={tech.src} alt={tech.alt} />
+                                </div>
+                            ))}
                         </div>
 
                         {/* Bottom Description Text */}
@@ -41,56 +54,84 @@ const WebDev = () => {
         // CourseRater
         {
             projectLink: 'https://github.com/kaihochak/courseRater',
-            imageUrl: macbook,
+            imageUrl: courseRater,
             imageAlt: 'CourseRater',
             title: 'CourseRater',
             description: 'A Website which is used to rate university level courses',
             date: 'April 24 - Present',
+            technologies: [
+                { src: typeScript, alt: 'TypeScript' },
+                { src: nextJS, alt: 'NextJS' },
+                { src: react, alt: 'React' },
+                { src: tailwind, alt: 'Tailwind' },
+                { src: figma, alt: 'Figma' },
+                { src: shadCN, alt: 'ShadCN' },
+            ],
         },
         // Local Marketplace
         {
             projectLink: 'https://github.com/kaihochak/local_marketplace',
-            imageUrl: macbook,
+            imageUrl: localMarketplace,
             imageAlt: 'Local Marketplace',
             title: 'Local Marketplace',
             description: 'An application for growing the local community by connecting service providers and customers.',
             date: 'Feb 24 - April 24',
+            technologies: [
+                { src: typeScript, alt: 'TypeScript' },
+                { src: nextJS, alt: 'NextJS' },
+                { src: react, alt: 'React' },
+                { src: tailwind, alt: 'Tailwind' },
+                { src: figma, alt: 'Figma' },
+                { src: shadCN, alt: 'ShadCN'},
+                { src: mantine, alt: 'Mantine' },
+                { src: vercel, alt: 'Vercel' },
+            ],
         },
         // MyUcalgary 2.0
         {
             projectLink: 'https://github.com/Vic-Han/SENG-401-Project',
-            imageUrl: macbook,
+            imageUrl: myUcalgary,
             imageAlt: 'MyUcalgary2.0',
             title: 'MyUcalgary 2.0',
             description: 'A Redesign of the University of Calgary’s student portal, MyUcalgary.',
             date: 'Jan 24 - April 24',
+            technologies: [
+                { src: tailwind, alt: 'Tailwind' },
+                { src: figma, alt: 'Figma' }
+            ],
         },
         // Chair Posture Corrector
         {
             projectLink: 'https://github.com/kaihochak/courseRater',
-            imageUrl: macbook,
+            imageUrl: chairPostureCorrector,
             imageAlt: 'Macbook',
             title: 'Chair Posture Corrector',
             description: 'An innovative posture corrector that alerts users when they slouch.',
             date: 'December 23',
+            technologies: [
+            ],
         },
         // Phone Screen Unlock
         {
             projectLink: 'https://github.com/kaihochak/courseRater',
-            imageUrl: macbook,
+            imageUrl: phoneScreenUnlock,
             imageAlt: 'Macbook',
             title: 'Phone Screen Unlock',
             description: 'An engaging multi-touch unlocking system.',
             date: 'November 23',
+            technologies: [
+            ],
         },
         // The Clicker Game
         {
             projectLink: 'https://github.com/kaihochak/courseRater',
-            imageUrl: macbook,
+            imageUrl: theClickerGame,
             imageAlt: 'Macbook',
             title: 'The Clicker Game',
             description: 'Interactive application designed to improve hand-eye coordination and reflex responses.',
             date: 'October 23',
+            technologies: [
+            ],
         },
     ];
 
@@ -105,6 +146,7 @@ const WebDev = () => {
                     title={project.title}
                     description={project.description}
                     date={project.date}
+                    technologies={project.technologies}
                 />
             ))}
         </div>

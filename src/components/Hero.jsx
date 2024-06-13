@@ -1,5 +1,13 @@
 import React from 'react'
 import myImageIllustration from '../assets/me-illustration.png'
+import figma from '../assets/Projects/technologyDrawings/figma.png'
+import mantine from '../assets/Projects/technologyDrawings/mantine.png'
+import nextJS from '../assets/Projects/technologyDrawings/nextJS.png'
+import react from '../assets/Projects/technologyDrawings/react.png'
+import shadCN from '../assets/Projects/technologyDrawings/shadCN.png'
+import tailwind from '../assets/Projects/technologyDrawings/tailwind.png'
+import typeScript from '../assets/Projects/technologyDrawings/typeScript.png'
+import vercel from '../assets/Projects/technologyDrawings/vercel.png'
 
 const Hero = () => {
   return (
@@ -20,15 +28,14 @@ const Hero = () => {
       </div>
 
       <div className='flex my-16 gap-x-12'>
-        <div className='bg-[#E18686] w-16 h-16 rounded-md'></div>
-        <div className='bg-[#F6D7C7] w-16 h-16 rounded-md'></div>
-        <div className='bg-[#EFD67C] w-16 h-16 rounded-md'></div>
-        <div className='bg-[#C2EAAA] w-16 h-16 rounded-md'></div>
-        <div className='bg-[#C6E9E7] w-16 h-16 rounded-md'></div>
-        <div className='bg-[#B1CBF2] w-16 h-16 rounded-md'></div>
-        <div className='bg-[#D5BCF5] w-16 h-16 rounded-md'></div>
-        <div className='bg-[#F8BAF5] w-16 h-16 rounded-md'></div>
-        <div className='bg-[#F9A2AC] w-16 h-16 rounded-md'></div>
+        <div className='w-16 h-16 bg-transparent rounded-md'><img src={figma} /></div>
+        <div className='w-16 h-16 bg-transparent rounded-md'><img src={mantine} /></div>
+        <div className='w-16 h-16 bg-transparent rounded-md'><img src={nextJS} /></div>
+        <div className='w-16 h-16 bg-transparent rounded-md'><img src={react} /></div>
+        <div className='w-16 h-16 bg-transparent rounded-md'><img src={shadCN} /></div>
+        <div className='w-16 h-16 bg-transparent rounded-md'><img src={tailwind} /></div>
+        <div className='w-16 h-16 bg-transparent rounded-md'><img src={typeScript} /></div>
+        <div className='w-16 h-16 bg-transparent rounded-md'><img src={vercel} /></div>
       </div>
     </div>
   )
