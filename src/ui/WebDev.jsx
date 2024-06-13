@@ -97,7 +97,8 @@ const WebDev = () => {
             date: 'Jan 24 - April 24',
             technologies: [
                 { src: tailwind, alt: 'Tailwind' },
-                { src: figma, alt: 'Figma' }
+                { src: figma, alt: 'Figma' },
+                vue
             ],
         },
         // Chair Posture Corrector
