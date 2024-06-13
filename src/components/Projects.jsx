@@ -11,7 +11,7 @@ export default function Projects() {
         <ul className="flex">
           {tabs.map((item) => (
             <li
-              key={item.label}
+              key={item.label}  
               className={`cursor-pointer py-2 px-4 ${item === selectedTab ? "font-bold" : ""}`}
               onClick={() => setSelectedTab(item)}
             >

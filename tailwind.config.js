@@ -21,6 +21,7 @@ export default {
         'primary-light': 'hsl(0, 0%, 99%)',
         primary: 'hsl(0, 0%, 100%)',
         secondary: 'hsl(0, 0%, 0%)',
+        'secondary-light': 'hsl(0, 0%, 55%)',
         accent: 'hsl(216, 72%, 82%)',
         background: {
           light: 'hsl(0, 0%, 100%)',
@@ -33,6 +34,7 @@ export default {
     },
   },
   plugins: [
+    require('@tailwindcss/aspect-ratio'),
     plugin(function ({ addBase, addComponents, addUtilities }) {
       addBase({});
       addComponents({
