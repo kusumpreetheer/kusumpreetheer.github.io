@@ -14,6 +14,9 @@ import shadCN from '../assets/Projects/technologyDrawings/shadCN.png'
 import tailwind from '../assets/Projects/technologyDrawings/tailwind.png'
 import typeScript from '../assets/Projects/technologyDrawings/typeScript.png'
 import vercel from '../assets/Projects/technologyDrawings/vercel.png'
+import arduino from '../assets/Projects/technologyDrawings/arduino.png'
+import vueJS from '../assets/Projects/technologyDrawings/vueJS.png'
+import uiux from '../assets/Projects/technologyDrawings/uiux.png'
 
 const WebDev = () => {
 
@@ -98,7 +101,7 @@ const WebDev = () => {
             technologies: [
                 { src: tailwind, alt: 'Tailwind' },
                 { src: figma, alt: 'Figma' },
-                vue
+                { src: vueJS, alt: 'VueJS' },
             ],
         },
         // Chair Posture Corrector
@@ -110,6 +113,8 @@ const WebDev = () => {
             description: 'An innovative posture corrector that alerts users when they slouch.',
             date: 'December 23',
             technologies: [
+                { src: arduino, alt: 'Arduino'},
+                { src: uiux, alt: 'UI/UX' },
             ],
         },
         // Phone Screen Unlock
@@ -121,6 +126,7 @@ const WebDev = () => {
             description: 'An engaging multi-touch unlocking system.',
             date: 'November 23',
             technologies: [
+                { src: uiux, alt: 'UI/UX'}
             ],
         },
         // The Clicker Game
@@ -132,6 +138,7 @@ const WebDev = () => {
             description: 'Interactive application designed to improve hand-eye coordination and reflex responses.',
             date: 'October 23',
             technologies: [
+                { src: uiux, alt: 'UI/UX'} 
             ],
         },
     ];
