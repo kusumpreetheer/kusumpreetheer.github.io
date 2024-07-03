@@ -5,7 +5,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Projects from './components/Projects';
 import Contacts from './components/Contacts';
-import CourseRater from './projectPages/courseRater'; // Import your project page component with correct casing
+import CourseRater from './projectPages/CourseRater'; // Import your project page component with correct casing
 import WebDev from './ui/webDev'; // Import the WebDev component with correct casing
 
 const App = () => {
