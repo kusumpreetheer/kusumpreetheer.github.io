@@ -25,7 +25,7 @@ const WebDev = () => {
         return (
             <div className='aspect-w-1 aspect-h-1'>
                 <Link to={projectLink} className='block'>
-                    <div className='relative flex flex-col justify-between h-full p-4 overflow-hidden rounded-md shadow-md group bg-primary-light'>
+                    <div className='relative flex flex-col justify-between h-full p-4 overflow-hidden rounded-md shadow-md group bg-primary'>
                         {/* Background Image */}
                         <div className='absolute inset-0 flex flex-col items-center justify-center w-full h-full mt-auto'>
                             <img src={imageUrl} alt={imageAlt} className='object-fill w-72 h-60' />

@@ -19,13 +19,13 @@ const Contacts = () => {
       </div>
 
       <div className='flex gap-x-4'>
-        <div className='px-4 py-2 rounded-md bg-primary-light drop-shadow-xl'>
+        <div className='px-4 py-2 rounded-md bg-primary drop-shadow-xl'>
           <a href="mailto:kusumpreetheer@gmail.com" className='flex items-center gap-x-2'>
             <Mail/> 
             E-mail
           </a>
         </div>
-        <div className='px-4 py-2 rounded-md bg-primary-light drop-shadow-md'>
+        <div className='px-4 py-2 rounded-md bg-primary drop-shadow-md'>
           <a href="https://www.linkedin.com/in/kusum-heer/" target='blank' className='flex items-center gap-x-2'>
             <Cookie/>
             Linked-In

@@ -18,7 +18,8 @@ export default {
     },
     extend: {
       colors: {
-        'primary-light': 'hsl(0, 0%, 99%)',
+        'primary-light': 'hsl(0, 0%,85%)',
+        'primary-dark': 'hsl(0, 0%, 55%)',
         primary: 'hsl(0, 0%, 100%)',
         secondary: 'hsl(0, 0%, 0%)',
         'secondary-light': 'hsl(0, 0%, 55%)',
