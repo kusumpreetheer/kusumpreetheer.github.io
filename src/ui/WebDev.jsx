@@ -17,14 +17,15 @@ import vercel from '../assets/Projects/technologyDrawings/vercel.png'
 import arduino from '../assets/Projects/technologyDrawings/arduino.png'
 import vueJS from '../assets/Projects/technologyDrawings/vueJS.png'
 import uiux from '../assets/Projects/technologyDrawings/uiux.png'
+import { Link } from 'react-router-dom';
 
 const WebDev = () => {
 
     const ProjectTemplate = ({ projectLink, imageUrl, imageAlt, title, description, date, technologies = [] }) => {
         return (
             <div className='aspect-w-1 aspect-h-1'>
-                <a href={projectLink} target="_blank" rel="noopener noreferrer" className='block'>
-                    <div className='relative flex flex-col justify-between h-full p-4 overflow-hidden rounded-md shadow-md group bg-primary-light'>
+                <Link to={projectLink} className='block'>
+                    <div className='relative flex flex-col justify-between h-full p-4 overflow-hidden rounded-md shadow-md group bg-primary'>
                         {/* Background Image */}
                         <div className='absolute inset-0 flex flex-col items-center justify-center w-full h-full mt-auto'>
                             <img src={imageUrl} alt={imageAlt} className='object-fill w-72 h-60' />
@@ -48,7 +49,7 @@ const WebDev = () => {
                             <div className='self-end mt-auto smaller-text text-secondary-light'>{date}</div>
                         </div>
                     </div>
-                </a>
+                </Link>
             </div>
         );
     }
@@ -56,7 +57,7 @@ const WebDev = () => {
     const projectData = [
         // CourseRater
         {
-            projectLink: 'https://github.com/kaihochak/courseRater',
+            projectLink: '/courseRater',
             imageUrl: courseRater,
             imageAlt: 'CourseRater',
             title: 'CourseRater',
