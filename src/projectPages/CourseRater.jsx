@@ -9,14 +9,12 @@ import shadCN from '../assets/Projects/technologyDrawings/shadCN.png'
 import courseRaterImg from '../assets/Projects/WebDev/CourseRater.png'
 import Roadmap from '../ui/Roadmap'
 
-const courseRater = () => {
+const CourseRater = () => {
     return (
-        <>
             <div className='py-32 wrapper'>
-
                 {/* heading */}
                 <div className='flex items-baseline justify-between'>
-                    <div className='flex items-baseline gap-x-8'>
+                    <div className='flex items-baseline gap-x-4'>
                         <div className='h1'>CourseRater</div>
                         <div className='body'>Making Rating your professors easier</div>
                     </div>
@@ -42,37 +40,41 @@ const courseRater = () => {
                     Introduction
                 </div>
 
-                {/* navbar */}
-                <div className='flex items-start'>
-                    <div className='relative flex flex-col items-center h-full pr-10 border-r-2 border-primary-dark'>
-                        <ul className="flex flex-col items-center h-full space-y-6 overflow-y-auto subtitle text-primary-light">
-                            <div className="flex flex-col items-center">
-                                <li className="block mb-2"><a href="#goal">Goal</a></li>
-                                <div className="w-0.5 h-10 bg-primary-light"></div>
-                            </div>
-                            <div className="flex flex-col items-center">
-                                <li className="block mb-2"><a href="#team">Team</a></li>
-                                <div className="w-0.5 h-10 bg-primary-light"></div>
-                            </div>
-                            <div className="flex flex-col items-center">
-                                <li className="block mb-2"><a href="#roadmap">Roadmap</a></li>
-                                <div className="w-0.5 h-10 bg-primary-light"></div>
-                            </div>
-                            <div className="flex flex-col items-center">
-                                <li className="block mb-2"><a href="#design">Design</a></li>
-                                <div className="w-0.5 h-10 bg-primary-light"></div>
-                            </div>
-                            <div className="flex flex-col items-center">
-                                <li className="block mb-2"><a href="#implementation">Implementation</a></li>
-                                <div className="w-0.5 h-10 bg-primary-light"></div>
-                            </div>
-                            <div className="flex flex-col items-center">
-                                <li className="block mb-2"><a href="#notes">Notes</a></li>
-                            </div>
-                        </ul>    
+                <section className='flex overflow-scroll gap-x-10'>
+
+                    {/* navbar */}
+                    <div className='sticky top-0 h-screen'>
+                        <div className='relative flex flex-col items-center h-full pr-10 border-r-2 border-primary-dark'>
+                            <ul className="flex flex-col items-center h-full space-y-6 overflow-y-auto subtitle text-primary-light">
+                                <div className="flex flex-col items-center">
+                                    <li className="block mb-2"><a href="#goal">Goal</a></li>
+                                    <div className="w-0.5 h-10 bg-primary-light"></div>
+                                </div>
+                                <div className="flex flex-col items-center">
+                                    <li className="block mb-2"><a href="#team">Team</a></li>
+                                    <div className="w-0.5 h-10 bg-primary-light"></div>
+                                </div>
+                                <div className="flex flex-col items-center">
+                                    <li className="block mb-2"><a href="#roadmap">Roadmap</a></li>
+                                    <div className="w-0.5 h-10 bg-primary-light"></div>
+                                </div>
+                                <div className="flex flex-col items-center">
+                                    <li className="block mb-2"><a href="#design">Design</a></li>
+                                    <div className="w-0.5 h-10 bg-primary-light"></div>
+                                </div>
+                                <div className="flex flex-col items-center">
+                                    <li className="block mb-2"><a href="#implementation">Implementation</a></li>
+                                    <div className="w-0.5 h-10 bg-primary-light"></div>
+                                </div>
+                                <div className="flex flex-col items-center">
+                                    <li className="block mb-2"><a href="#notes">Notes</a></li>
+                                </div>
+                            </ul>
+                        </div>
                     </div>
 
-                    <div className='w-full h-screen pl-10 space-y-16 overflow-y-auto'>
+                    {/* content */}
+                    <div className='w-full mx-auto space-y-16'>
                         {/* Goal */}
                         <div id="goal" className="space-y-6">
                             <h2 className='h2'>Goal</h2>
@@ -89,7 +91,7 @@ const courseRater = () => {
                         <div id="roadmap" className="space-y-6">
                             <h2 className='h2'>Roadmap</h2>
                             <p className='subtitle text-primary-dark'>Roadmap Section</p>
-                            <Roadmap/>
+                            <Roadmap />
                         </div>
 
                         {/* Design */}
@@ -109,12 +111,13 @@ const courseRater = () => {
                             <h2 className='h2'>Notes</h2>
                             <p className='subtitle text-primary-dark'>Notes Section</p>
                         </div>
-                    </div>                    
-                </div>
+                    </div>
+
+                </section>
+
 
             </div>
-        </>
     )
 }
 
-export default courseRater
+export default CourseRater
