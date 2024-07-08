@@ -9,7 +9,7 @@ import CourseRater from './projectPages/CourseRater';
 
 const App = () => {
   return (
-    <div className='container overflow-hidden'>
+    <div className='h-full overflow-y-auto '>
       <Header />
       <Routes>
         <Route path="/" element={

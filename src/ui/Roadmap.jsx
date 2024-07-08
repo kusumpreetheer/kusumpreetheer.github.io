@@ -38,7 +38,7 @@ const Roadmap = () => {
     <>
       <div>Roadmap</div>
 
-      <div className='relative mx-auto'>
+      <div className='relative mx-auto '>
         <motion.div
           style={{ scaleY: scrollYProgress }}
           className='absolute w-[4px] -left-1.5 top-4 h-[80%] bg-black origin-top'

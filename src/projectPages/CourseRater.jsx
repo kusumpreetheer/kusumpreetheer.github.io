@@ -40,7 +40,7 @@ const CourseRater = () => {
                     Introduction
                 </div>
 
-                <section className='flex overflow-scroll gap-x-10'>
+                <section className='flex gap-x-10'>
 
                     {/* navbar */}
                     <div className='sticky top-0 h-screen'>
