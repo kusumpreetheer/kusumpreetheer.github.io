@@ -57,7 +57,7 @@ const WebDev = () => {
     const projectData = [
         // CourseRater
         {
-            projectLink: '/courseRater',
+            projectLink: 'https://course-rater.vercel.app/',
             imageUrl: courseRater,
             imageAlt: 'CourseRater',
             title: 'CourseRater',
@@ -74,7 +74,7 @@ const WebDev = () => {
         },
         // Local Marketplace
         {
-            projectLink: 'https://github.com/kaihochak/local_marketplace',
+            projectLink: 'https://local-marketplace.vercel.app/',
             imageUrl: localMarketplace,
             imageAlt: 'Local Marketplace',
             title: 'Local Marketplace',
@@ -107,7 +107,7 @@ const WebDev = () => {
         },
         // Chair Posture Corrector
         {
-            projectLink: 'https://github.com/kaihochak/courseRater',
+            projectLink: 'https://github.com/kaihochak/posture-corrector',
             imageUrl: chairPostureCorrector,
             imageAlt: 'Macbook',
             title: 'Chair Posture Corrector',
@@ -120,7 +120,7 @@ const WebDev = () => {
         },
         // Phone Screen Unlock
         {
-            projectLink: 'https://github.com/kaihochak/courseRater',
+            projectLink: 'https://github.com/kaihochak/guitar-screen-lock?tab=readme-ov-file',
             imageUrl: phoneScreenUnlock,
             imageAlt: 'Macbook',
             title: 'Phone Screen Unlock',
@@ -132,7 +132,7 @@ const WebDev = () => {
         },
         // The Clicker Game
         {
-            projectLink: 'https://github.com/kaihochak/courseRater',
+            projectLink: 'https://github.com/kaihochak/clicker',
             imageUrl: theClickerGame,
             imageAlt: 'Macbook',
             title: 'The Clicker Game',
