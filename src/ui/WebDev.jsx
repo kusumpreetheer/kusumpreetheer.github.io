@@ -43,10 +43,10 @@ const WebDev = () => {
                         {/* Bottom Description Text */}
                         <div className='relative z-10 flex flex-col mt-auto transition-all duration-300 group-hover:translate-y-full group-hover:opacity-0'>
                             <div>
-                                <div className='subtitle'>{title}</div>
-                                <div className='body'>{description}</div>
+                                <div className='md:subtitle subtitle-mobile'>{title}</div>
+                                <div className='md:body body-mobile'>{description}</div>
                             </div>
-                            <div className='self-end mt-auto smaller-text text-secondary-light'>{date}</div>
+                            <div className='self-end mt-auto md:smaller-text small-mobile text-secondary-light'>{date}</div>
                         </div>
                     </div>
                 </Link>
@@ -145,7 +145,7 @@ const WebDev = () => {
     ];
 
     return (
-        <div className='grid grid-cols-3 gap-4 mb-44'>
+        <div className='grid grid-cols-1 gap-4 mb-20 md:grid-cols-3 md:mb-44'>
             {projectData.map((project, index) => (
                 <ProjectTemplate
                     key={index}

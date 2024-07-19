@@ -19,13 +19,10 @@ const Header = () => {
           </h1>
         </div>
         <nav className="flex items-center">
-          <div className="md:hidden" onClick={handleToggle}>
-            <button className="text-3xl">&#9776;</button>
-          </div>
-          <ul className={`md:flex space-x-4 ${isOpen ? 'block' : 'hidden'} md:block mt-4 md:mt-0 subtitle text-secondary`}>
+          <ul className={`flex space-x-4 mt-4 md:mt-0 subtitle text-secondary`}>
             {/* <li><a href="#About" className="block">About</a></li> */}
-            <li><a href="#Projects" className="block">Projects</a></li>
-            <li><a href="#Contacts" className="block">Contact</a></li>
+            <li><a href="#Projects" className="md:subtitle subtitle-mobile">Projects</a></li>
+            <li><a href="#Contacts" className="md:subtitle subtitle-mobile">Contact</a></li>
           </ul>
         </nav>
       </div>

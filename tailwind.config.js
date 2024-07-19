@@ -72,6 +72,38 @@ export default {
         '.link-text': {
           '@apply font-poppins font-bold text-accent underline text-[16px]': {},
         },
+
+        // mobile 
+        '.h1-mobile': {
+          '@apply font-poppins font-bold tracking-[-0.02em] text-[32px]': {},
+        },
+        '.h2-mobile': {
+          '@apply font-poppins font-bold tracking-[-0.02em] text-[28px]': {},
+        },
+        '.h3-mobile': {
+          '@apply font-poppins font-semibold tracking-[-0.02em] text-[20px]': {},
+        },
+        '.subtitle-mobile': {
+          '@apply font-poppins font-semibold text-[18px]': {},
+        },
+        '.body-mobile': {
+          '@apply font-poppins font-normal leading-[1.4em] text-[14px]': {},
+        },
+        '.bold-mobile': {
+          '@apply font-poppins font-semibold text-[14px]': {},
+        },
+        '.small-mobile': {
+          '@apply font-poppins font-light leading-[1.4em] text-[12px]': {},
+        },
+        '.pretitle-mobile': {
+          '@apply font-poppins font-bold tracking-[0.03em] text-[12px]': {},
+        },
+        '.button-text-mobile': {
+          '@apply font-poppins font-bold tracking-[0.04em] uppercase text-[14px]': {},
+        },
+        '.link-text-mobile': {
+          '@apply font-poppins font-bold underline text-[14px]': {},
+        },
       });
       addUtilities({
         ".tap-highlight-color": {

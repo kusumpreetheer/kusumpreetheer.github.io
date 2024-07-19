@@ -6,7 +6,7 @@ import React from "react";
 export default function Projects() {
   const [selectedTab, setSelectedTab] = useState(tabs[0]);
   return (
-    <div className="container w-full mt-28 wrapper">
+    <div className="container w-full mt-6 md:mt-28 wrapper">
       <nav className="mb-4">
         <ul className="flex">
           {tabs.map((item) => (
