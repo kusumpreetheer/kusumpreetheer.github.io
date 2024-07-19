@@ -11,7 +11,7 @@ import vercel from '../assets/Projects/technologyDrawings/vercel.png'
 
 const Hero = () => {
   return (
-    <div className='container pt-40 wrapper'>
+    <div className='container pt-28 md:pt-40 wrapper'>
       <div className='flex items-center items-between gap-x-4'>
         <div className='flex-1'>
           <div className='md:h2 h2-mobile'>Welcome to</div>
