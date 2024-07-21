@@ -1,6 +1,7 @@
 import React from 'react'
 import Mail from '@/assets/Icons/Mail'
 import Cookie from '@/assets/Icons/Cookie'
+import contactInfoArt from '@/assets/contactInfoArt.png'
 
 const Contacts = () => {
   return (
@@ -15,7 +16,9 @@ const Contacts = () => {
           </div>
           <div className='my-2 md:body body-mobile'>Shoot me an email if you want to go biking and design websites together! </div>
         </div>
-        <div className='hidden rounded-md w-52 h-52 bg-secondary'></div>
+        <div className='rounded-lg w-65 h-65 border-blur-sm'>
+          <img src={contactInfoArt} alt="stars" className='hidden rounded-md border-blur-sm md:block' />
+        </div>
       </div>
 
       <div className='flex gap-x-4'>
