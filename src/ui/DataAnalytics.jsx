@@ -2,7 +2,16 @@ import React from 'react'
 import businessSalesDashboard from '../assets/Projects/DataAnalytics/BusinessSalesDashboard.png'
 import financialComplaintsDashboard from '../assets/Projects/DataAnalytics/financialComplainDashboard.png'
 import indianRoadAnalytics from '../assets/Projects/DataAnalytics/RoadAnalyticsMockup.png'
-import figma from '../assets/Projects/technologyDrawings/figma.png'
+import excel from '../assets/Projects/technologyDrawings/excel.png'
+import python from '../assets/Projects/technologyDrawings/python.png'
+import jupyter from '../assets/Projects/technologyDrawings/jupyter.png'
+import numpy from '../assets/Projects/technologyDrawings/numpy.png'
+import pandas from '../assets/Projects/technologyDrawings/pandas.png'
+import pyspark from '../assets/Projects/technologyDrawings/pyspark.png'
+import seaborn from '../assets/Projects/technologyDrawings/seaborn.png'
+import tableau from '../assets/Projects/technologyDrawings/tableau.png'
+import powerbi from '../assets/Projects/technologyDrawings/powerbi.png'
+import sql from '../assets/Projects/technologyDrawings/sql.png'
 import { Link } from 'react-router-dom';
 
 const DataAnalytics = () => {
@@ -50,12 +59,12 @@ const DataAnalytics = () => {
       description: 'A Machine Learning project that analyzes the road conditions in India and provides insights',
       date: 'September 2023 - December 2023',
       technologies: [
-        { src: figma, alt: 'Python'},
-        { src: figma, alt: 'Pandas'},
-        { src: figma, alt: 'Seaborn'},
-        { src: figma, alt: 'PySpark'},
-        { src: figma, alt: 'NumPy'},
-        { src: figma, alt: 'Jupyter Notebook'},
+        { src: python, alt: 'Python'},
+        { src: pandas, alt: 'Pandas'},
+        { src: seaborn, alt: 'Seaborn'},
+        { src: pyspark, alt: 'PySpark'},
+        { src: numpy, alt: 'NumPy'},
+        { src: jupyter, alt: 'Jupyter Notebook'},
       ],
     },
     // Financial Complaints Dashboard
@@ -67,8 +76,8 @@ const DataAnalytics = () => {
       description: 'A Tableau project that analyzes financial complaints and provides insights',
       date: 'March 2024',
       technologies: [
-        { src: figma, alt: 'Tableau'},
-        { src: figma, alt: 'Excel'},
+        { src: tableau, alt: 'Tableau'},
+        { src: excel, alt: 'Excel'},
       ],
     },
     // Business Sales Dashboard
@@ -80,9 +89,9 @@ const DataAnalytics = () => {
       description: 'A PowerBI project that analyzes business sales and provides insights',
       date: 'April 2024',
       technologies: [
-        { src: figma, alt: 'PowerBI'},
-        { src: figma, alt: 'Excel'},
-        { src: figma, alt: 'SQL'},
+        { src: powerbi, alt: 'PowerBI'},
+        { src: excel, alt: 'Excel'},
+        { src: sql, alt: 'SQL'},
       ],
     },
   ]

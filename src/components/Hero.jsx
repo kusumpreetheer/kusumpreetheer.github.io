@@ -8,6 +8,16 @@ import shadCN from '../assets/Projects/technologyDrawings/shadCN.png'
 import tailwind from '../assets/Projects/technologyDrawings/tailwind.png'
 import typeScript from '../assets/Projects/technologyDrawings/typeScript.png'
 import vercel from '../assets/Projects/technologyDrawings/vercel.png'
+import excel from '../assets/Projects/technologyDrawings/excel.png'
+import python from '../assets/Projects/technologyDrawings/python.png'
+import jupyter from '../assets/Projects/technologyDrawings/jupyter.png'
+import numpy from '../assets/Projects/technologyDrawings/numpy.png'
+import pandas from '../assets/Projects/technologyDrawings/pandas.png'
+import pyspark from '../assets/Projects/technologyDrawings/pyspark.png'
+import seaborn from '../assets/Projects/technologyDrawings/seaborn.png'
+import tableau from '../assets/Projects/technologyDrawings/tableau.png'
+import powerbi from '../assets/Projects/technologyDrawings/powerbi.png'
+import sql from '../assets/Projects/technologyDrawings/sql.png'
 
 const Hero = () => {
   return (
@@ -34,6 +44,16 @@ const Hero = () => {
         <div className='w-10 h-10 bg-transparent rounded-md md:w-16 md:h-16'><img src={tailwind} /></div>
         <div className='w-10 h-10 bg-transparent rounded-md md:w-16 md:h-16'><img src={typeScript} /></div>
         <div className='w-10 h-10 bg-transparent rounded-md md:w-16 md:h-16'><img src={vercel} /></div>
+        <div className='w-10 h-10 bg-transparent rounded-md md:w-16 md:h-16'><img src={excel} /></div>
+        <div className='w-10 h-10 bg-transparent rounded-md md:w-16 md:h-16'><img src={python} /></div>
+        <div className='w-10 h-10 bg-transparent rounded-md md:w-16 md:h-16'><img src={jupyter} /></div>
+        <div className='w-10 h-10 bg-transparent rounded-md md:w-16 md:h-16'><img src={numpy} /></div>
+        <div className='w-10 h-10 bg-transparent rounded-md md:w-16 md:h-16'><img src={pandas} /></div>
+        <div className='w-10 h-10 bg-transparent rounded-md md:w-16 md:h-16'><img src={pyspark} /></div>
+        <div className='w-10 h-10 bg-transparent rounded-md md:w-16 md:h-16'><img src={seaborn} /></div>
+        <div className='w-10 h-10 bg-transparent rounded-md md:w-16 md:h-16'><img src={tableau} /></div>
+        <div className='w-10 h-10 bg-transparent rounded-md md:w-16 md:h-16'><img src={powerbi} /></div>
+        <div className='w-10 h-10 bg-transparent rounded-md md:w-16 md:h-16'><img src={sql} /></div>
       </div>
     </div>
   )
